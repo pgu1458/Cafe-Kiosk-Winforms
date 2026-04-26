@@ -3,7 +3,7 @@
 > C# WinForms 기반 카페 키오스크 시뮬레이터  
 > 주문부터 결제, 회원 적립, 시선 제어까지 실제 서비스처럼 구현
 
-🔗 [GitHub](https://github.com/pgu1458/cafe-kiosk-winforms)
+시연 영상 : https://youtu.be/3KCGaLPkmX0
 
 ---
 
