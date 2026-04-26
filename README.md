@@ -21,7 +21,8 @@
 ### 🌐 시작 화면 — 언어 선택 및 BGM
 
 <!-- 시작 화면 스크린샷 -->
-![시작 화면](screenshots/start.png)
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/dd9acd01-4330-4d69-bac8-009f63e75842" />
+
 
 프로그램을 실행하면 가장 먼저 언어 선택 화면이 표시됩니다. 선택한 언어는 이후 모든 화면의 메뉴명과 UI 문구에 즉시 반영됩니다.
 
@@ -34,7 +35,8 @@
 ### 🛒 주문 화면
 
 <!-- 주문 화면 스크린샷 (전체) -->
-![주문 화면](screenshots/order.png)
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/774f1d01-976d-4238-83f6-a080c492c8ed" />
+
 
 **탭 구성 및 이용 유형 선택**
 
@@ -79,7 +81,12 @@
 ### 👤 회원 기능 — 로그인 / 적립
 
 <!-- 로그인 화면 스크린샷 -->
-![로그인 화면](screenshots/login.png)
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/b24dc045-62fd-45cb-a60b-5f4adc5ebef9" />
+
+
+
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/0c876877-078e-4b7a-8ae7-623cce1a7c13" />
+
 
 인메모리 딕셔너리 기반의 가상 회원 DB로 로그인과 회원가입을 구현했습니다. 실제 DB 없이도 앱 실행 중에는 회원 데이터가 유지됩니다.
 
@@ -87,6 +94,9 @@
 - 로그인 시 쿠폰 1개 자동 적립
 - 쿠폰 **10개 누적 시 무료 커피 1잔** 제공 안내
 - 회원 로그인 시 전체 금액 **5% 할인** 자동 적용
+
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/9e5a1da7-7881-40c2-b7d6-a5b6351941e4" />
+
 
 **할인 중복 적용 예시**
 
@@ -96,12 +106,17 @@
 | 회원 로그인 | 5% |
 | 포장 + 회원 | 15% |
 
+
+<img width="600" height="500" alt="image" src="https://github.com/user-attachments/assets/6e5ba03d-aacb-4f10-aff2-05c26e9bc1f7" />
+
+
 ---
 
 ### 💳 결제
 
 <!-- 결제 수단 선택 화면 스크린샷 -->
-![결제 화면](screenshots/payment.png)
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/00129aa1-1a0b-41f8-a0e0-8cce9880ff2a" />
+
 
 카카오페이 / 네이버페이 / 신용카드 / 현금 4가지 결제 수단을 지원합니다. 각 결제 수단 선택 시 해당 화면으로 전환되며, 결제 진행 중에는 로딩 애니메이션이 표시됩니다.
 
@@ -115,10 +130,17 @@
 결제 완료 후 영수증 출력 여부를 선택할 수 있습니다.
 
 <!-- 카카오페이 QR 화면 스크린샷 -->
-![카카오페이 결제](screenshots/payment_kakao.png)
+<img width="600" height="450" alt="image" src="https://github.com/user-attachments/assets/4f93ce51-472c-465e-b03c-fe8f3e6d25aa" />
+
 
 <!-- 결제 완료 및 영수증 화면 스크린샷 -->
-![결제 완료](screenshots/payment_done.png)
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/17a44d78-363d-48f7-a9f6-1c42ae8de291" />
+
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/f36f3c12-8300-4589-b7fc-5a892aee1af1" />
+
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/2cb3f867-b465-4909-8bb7-8ffcc6433d87" />
+
+
 
 > 결제는 실제 API 연동 없이 UI 흐름만 구현된 시뮬레이션입니다.
 
@@ -127,7 +149,8 @@
 ### 👁️ 시선 제어 (Eye Tracking)
 
 <!-- 시선 제어 동작 화면 스크린샷 -->
-![시선 제어](screenshots/eye_tracking.png)
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/2f3643a7-3e27-4cd3-afc7-98c6430732a5" />
+
 
 OpenCV(OpenCvSharp)와 Haar Cascade 분류기를 활용해 카메라로 눈 위치를 실시간 감지하고, 시선이 특정 버튼에 일정 시간 머물면 자동으로 클릭되는 기능입니다. 마우스나 터치 없이 시선만으로 키오스크를 조작할 수 있어 거동이 불편한 사용자의 접근성을 높이는 것을 목표로 구현했습니다.
 
