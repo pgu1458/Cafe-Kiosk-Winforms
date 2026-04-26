@@ -12,7 +12,7 @@
 키오스크가 일상에서 워낙 자주 쓰이다 보니 직접 만들어보고 싶었습니다. UI 구성부터 결제 흐름, 다국어 처리, 시선 제어까지 최대한 실제 서비스처럼 구현하는 것을 목표로 했습니다. 단순한 UI 연습을 넘어서 실제 키오스크가 어떻게 동작하는지 흐름 전체를 직접 설계하고 구현했습니다.
 
 <!-- 전체 흐름 스크린샷 (시작 → 주문 → 결제) -->
-![키오스크 전체 흐름](screenshots/overview.png)
+<img width="500" height="700" alt="cafe_kiosk_flowchart" src="https://github.com/user-attachments/assets/1e39fb79-eaba-48d7-a281-dcae6862abe8" />
 
 ---
 
